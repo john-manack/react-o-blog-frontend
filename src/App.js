@@ -1,9 +1,12 @@
+import { BrowserRouter as Router } from 'react-router-dom';
+import Albums from './components/Albums'
 
 function App() {
   return (
-    <div>
-      <h1>Album Review Site</h1>
-    </div>
+    <Router>
+          <h1>Album Review Site</h1>
+          <Albums />
+    </Router>
   );
 }
 
